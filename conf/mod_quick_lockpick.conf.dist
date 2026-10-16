@@ -1,0 +1,36 @@
+[worldserver]
+
+########################################
+# mod-quick-lockpick
+#
+# Open lockboxes in one step: right-click picks the lock, and an unlocked box opens by itself.
+########################################
+
+#
+#    QuickLockpick.Enable
+#        Description: Master switch. With 0 lockboxes work as in stock 3.3.5.
+#        Default:     1
+#
+
+QuickLockpick.Enable = 1
+
+#
+#    QuickLockpick.RightClickPicks
+#        Description: Right-clicking a locked box casts Pick Lock on it, for players who know
+#                     Pick Lock. Boxes that need a key, or that are above the player's
+#                     lockpicking skill, behave as in stock ("Item is locked", or the spell's
+#                     own error).
+#        Default:     1
+#
+
+QuickLockpick.RightClickPicks = 1
+
+#
+#    QuickLockpick.OpenAfterUnlock
+#        Description: A box in the player's bags opens as soon as it is unlocked, by Pick Lock
+#                     or a skeleton key. With 0 the player right-clicks it
+#                     again to open it, as in stock.
+#        Default:     1
+#
+
+QuickLockpick.OpenAfterUnlock = 1
